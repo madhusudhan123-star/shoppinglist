@@ -1,0 +1,46 @@
+/*complete web*/
+*{
+	background-color: #25252A;
+	padding: 10px;
+	color: white;
+}
+/*heading*/
+h1 , #first{
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: ;
+}
+/*second heading*/
+.second{
+	color:white;
+	font-size: 20px;
+}
+/*for all buttons*/
+button{
+	width: 85px;
+	height: 40px;
+	border-radius:50px;
+	transition-duration: 1s;
+	border: 1px solid #38383b;
+}
+/*hovering button*/
+#enter:hover{
+	background-color: #898989;
+	cursor: pointer;
+	border:none;
+}
+/*hovering delete button*/
+.delete:hover{
+	background-color: #898989;
+	cursor: pointer;
+	border:none;
+}
+/*adding list input*/
+input{
+	border-radius: 20px;
+}
+/*taggle the li*/
+.done {
+  text-decoration: 2px line-through #ff3c3c;
+}
