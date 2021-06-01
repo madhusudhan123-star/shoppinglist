@@ -3,16 +3,9 @@
   "version": "1.0.0",
   "description": "there we can make a list of shopping or task",
   "main": "script.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/madhusudhan123-star/shoppinglist-simpleproject.git"
-  },
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
   },
   "author": "madhusudhan",
   "license": "ISC",
@@ -22,5 +15,8 @@
   "homepage": "https://github.com/madhusudhan123-star/shoppinglist-simpleproject#readme",
   "devDependencies": {
     "gh-pages": "^3.2.0"
+  },
+  "dependencies": {
+    "scripts": "^0.1.0"
   }
 }
